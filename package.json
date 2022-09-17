@@ -1,0 +1,27 @@
+{
+  "name": "web-scraper-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viamur/Web-Scraper-Nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viamur/Web-Scraper-Nodejs/issues"
+  },
+  "homepage": "https://github.com/viamur/Web-Scraper-Nodejs#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "puppeteer": "^17.1.3"
+  }
+}

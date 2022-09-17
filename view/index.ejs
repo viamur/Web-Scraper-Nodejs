@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<body>
+    <h1>This is my first web scraper for node js</h1>
+    <form action="/parse" method="POST">
+        <label for="url">Site URL</label>
+        <input type="text" name="url" id="email" />
+        <label for="indexer">Class or Attribute to parse</label>
+        <input type="text" name="indexer" id="indexer" />
+        <button type="submit">Scraping</button>
+    </form>
+    <p>You can include nested attributes. Example: a > span</p>
+    <h2>Save website to pdf file</h2>
+    <form action="/pdf" method="POST">
+        <label for="url">Site URL</label>
+        <input type="text" name="url" id="email" />
+        <button type="submit">Save</button>
+    </form>
+</body>
+
+</html>
